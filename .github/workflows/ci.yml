@@ -21,9 +21,16 @@ jobs:
             ninja-build \
             g++ \
             clang-format \
-            libraylib-dev \
             libgl1-mesa-dev \
-            libx11-dev
+            libx11-dev \
+            libxext-dev \
+            libxrandr-dev \
+            libxinerama-dev \
+            libxcursor-dev \
+            libxi-dev \
+            libwayland-dev \
+            libxkbcommon-dev \
+            libasound2-dev
 
       - name: Check formatting
         run: |
