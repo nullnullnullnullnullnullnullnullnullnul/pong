@@ -1,0 +1,31 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+IndentWidth: 2
+ColumnLimit: 100
+PointerAlignment: Right
+SpaceBeforeParens: ControlStatements
+Cpp11BracedListStyle: true
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortBlocksOnASingleLine: Never
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterFunction: true
+  AfterStruct: true
+  AfterEnum: true
+  AfterNamespace: true
+  AfterControlStatement: Never
+  BeforeElse: false
+  BeforeCatch: false
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^<raylib.*>$'
+    Priority: 2
+  - Regex: '^<[a-z_]+>$'
+    Priority: 1
+  - Regex: '^".*"$'
+    Priority: 3
+SortIncludes: CaseInsensitive

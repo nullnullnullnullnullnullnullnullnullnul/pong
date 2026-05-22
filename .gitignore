@@ -1,1 +1,29 @@
+# Build
 build/
+build-*/
+out/
+cmake-build-*/
+_deps/
+
+# Compiler artifacts
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.dSYM/
+
+# Editors / IDEs
+.vscode/
+.idea/
+.cache/
+.ccls-cache/
+compile_commands.json
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
